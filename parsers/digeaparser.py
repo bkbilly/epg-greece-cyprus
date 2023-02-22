@@ -51,7 +51,7 @@ def parse(channel, digea_cache):
 
             program_object = {
                 'channel': epg_name,
-                'title': program['title_gre'],
+                'title': program['title_eng'],
                 'start_time': start_time,
                 'end_time': end_time,
                 'description': program['long_synopsis_gre']

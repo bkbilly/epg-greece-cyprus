@@ -25,7 +25,7 @@ def parse(channel):
         params = {
             'days': day,
             'service_id': server_name,
-            'lang': 'el'
+            'lang': 'en'
         }
 
         response = requests.get(url=URL, params=params, headers=HEADERS)
